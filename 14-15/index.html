@@ -7,12 +7,12 @@
             var head = document.getElementById('text1');
             var text = document.getElementById('text2');
 
-            var arthas = document.getElementById('arthas');
-            var subzero = document.getElementById('subzero');
-            var kenshiro = document.getElementById('kenshiro');
-            var n1 = document.getElementById('1');
-            var n22 = document.getElementById('22');
-            var n23 = document.getElementById('23');
+            var arthas = document.getElementById('mario');
+            var subzero = document.getElementById('shrek');
+            var kenshiro = document.getElementById('takumi');
+            var n1 = document.getElementById('z1');
+            var n22 = document.getElementById('z2');
+            var n23 = document.getElementById('z3');
             var curs = document.getElementById('curs');
             var und = document.getElementById('und');
             var fat = document.getElementById('fat');
@@ -21,13 +21,13 @@
             var strh1 = "<h1>"+t1+"</h1><hr><P>";
             var strh2 = "<h1>"+t2+"</h1><hr><P>";
 
-            if (arthas.selected) img = '<IMG src="32.png">';
-            if (subzero.selected) img = '<IMG src="31.png">';
-            if (kenshiro.selected) img = '<IMG src="3.png">';
+            if (arthas.selected) img = '<IMG src="mario.jpg">';
+            if (subzero.selected) img = '<IMG src="shrek.jpg">';
+            if (kenshiro.selected) img = '<IMG src="takumi.jpg">';
 
-            if (n1.checked) st="<head><style> body {background-image: url('1.jpg'); background-size: cover;";
-            if (n22.checked) st="<head><style> body {background-image: url('22.png'); background-size: cover;";
-            if (n23.checked) st="<head><style> body {background-image: url('23.png'); background-size: cover;";
+            if (n1.checked) st="<head><style> body {background-image: url('z1.jpg'); background-size: cover;";
+            if (n22.checked) st="<head><style> body {background-image: url('z2.jpg'); background-size: cover;";
+            if (n23.checked) st="<head><style> body {background-image: url('z3.jpg'); background-size: cover;";
 
             if (curs.checked) st1=st+"font-style: italic};";
             if (und.checked) st1=st+"text-decoration: underline};";
@@ -78,9 +78,9 @@
                 <td>Персонаж</td>
                 <td colspan="3">
                     <select id="text1" class="divs">
-                        <option id='arthas'>Артас</option>
-                        <option id='subzero'>Саб-Зиро</option>
-                        <option id='kenshiro'>Кенширо</option>
+                        <option id='arthas'>Марио</option>
+                        <option id='subzero'>Шрек</option>
+                        <option id='kenshiro'>Такуми</option>
                     </select></td>
             </tr>
             <tr>
@@ -93,19 +93,19 @@
             </tr>
             <tr>
                 <td><input type="radio" id="1"></td>  
-                <td>#1.png</td>
+                <td>#z1.jpg</td>
                 <td><input type="checkbox" id="curs"></td>  
                 <td>Курсив</td>   
             </tr>
             <tr>
                 <td><input type="radio" id="22"></td>
-                <td>#22.png</td>
+                <td>#z2.jpg</td>
                 <td><input type="checkbox" id="und"></td>
                 <td>Подчеркивание</td>
             </tr>
             <tr>
                 <td><input type="radio" id="23"></td>
-                <td>#23.png</td>
+                <td>#z3.jpg</td>
                 <td><input type="checkbox" id="fat"></td>
                 <td>Жирный</td>
             </tr>
